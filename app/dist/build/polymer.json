@@ -1,8 +1,8 @@
 {
-  "entrypoint": "index.html",
+  "entrypoint": "src/index.html",
   "fragments": [],
   "sources": [
-    "index.html"
+    "src/index.html"
   ],
   "extraDependencies": [
     "bower_components/webcomponentsjs/*.js",

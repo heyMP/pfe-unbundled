@@ -10,3 +10,15 @@
 // import "@lrnwebcomponents/product-card/lib/hax-element-list-selector.js";
 // import "@lrnwebcomponents/cms-hax/cms-hax.js";
 // import "@lrnwebcomponents/wysiwyg-hax/wysiwyg-hax.js";
+import "@patternfly/pfe-autocomplete";
+import "@patternfly/pfe-avatar";
+import "@patternfly/pfe-button";
+import "@patternfly/pfe-card";
+import "@patternfly/pfe-collapse";
+import "@patternfly/pfe-content-set";
+import "@patternfly/pfe-cta";
+import "@patternfly/pfe-datetime";
+import "@patternfly/pfe-icon";
+import "@patternfly/pfe-number";
+import "@patternfly/pfe-tabs";
+import "@patternfly/pfe-toast";

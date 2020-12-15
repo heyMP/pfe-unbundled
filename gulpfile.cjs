@@ -37,6 +37,11 @@ gulp.task(
 );
 
 gulp.task("wc-autoloader", async () => {
+  const imports = resnodeRlve('app/src/app.js').map(i => {
+    // we need to resolve the ESM exports here and return those paths
+    console.log(i);
+    return i;
+  });
   glob(path.join("./app/dist/build/es6/node_modules/**/*.js"), (er, files) => {
     let elements = {};
     // async loop over files
